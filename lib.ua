@@ -6,4 +6,5 @@
   Trim ↚ ▽\↥>@0.                          # trim leading zeros 
   TwoOp! ↚ New Trim °Dig Norm ^! ∩(Dig x) # two-arg operation
   Add ← TwoOp!⬚0+                         # addition
+  Mul ← TwoOp!(/+⬚0≡(⊂▽⊙0)⇡⧻.⊞×)          # multiplication
 ---
