@@ -1,14 +1,14 @@
 # Experimental!
-~ "lib.ua" ~ Big
+~ "lib.ua" ~ BigNat
 ---Getter
-  Big~x Big~New "42"
+  BigNat~n BigNat~New "42"
   ⍤⟜≍: "42"
 ---
 ---Addition
-  Big~x Big~Add ∩Big~New "742" "1979"
+  BigNat~n BigNat~Add ∩BigNat~New "742" "1979"
   ⍤⟜≍: "2721"
 ---
 ---Multiplication
-  Big~x Big~Mul ∩Big~New "1239" "456"
+  BigNat~n BigNat~Mul ∩BigNat~New "1239" "456"
   ⍤⟜≍: "564984"
 ---
